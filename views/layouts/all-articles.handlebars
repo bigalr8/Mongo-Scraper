@@ -1,2 +1,20 @@
 <!-- views/layouts/all-articles.handlebars -->
-<!-- Article list handlebars template
+<!-- Article list handlebars template -->
+
+<style media="screen">
+  li {
+    height : 100px;
+    width: 100px;
+    color: red;
+    background-color: purple;
+    margin-bottom: 30px;
+  }
+</style>
+
+<h1>Articles from {{source}}</h1>
+
+<ul>
+{{#each media }}
+  <li>{{article}}</li>
+{{/each}}
+</ul>
