@@ -4,7 +4,7 @@
 <style media="screen">
   li {
     height : 100px;
-    width: 100px;
+    max-width: 960x;
     color: red;
     background-color: purple;
     margin-bottom: 30px;
@@ -14,7 +14,7 @@
 <h1>Articles from {{source}}</h1>
 
 <ul>
-{{#each media }}
-  <li>{{article}}</li>
+{{#each media}}
+  <li>{{title}}<button data-id={{id}} id="savenote">Remove</button></li>
 {{/each}}
 </ul>
