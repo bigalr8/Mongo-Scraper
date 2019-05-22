@@ -39,7 +39,7 @@ app.use(express.static("public"));
 //Require all data models
 var db = require("./models");
 //Connect to Mongo database
-mongoose.connect("mongodb://localhost/unit18Populater", { useNewUrlParser: true });
+mongoose.connect("mongodb://localhost/mongoScrapedb", { useNewUrlParser: true });
 
 
 // Set Handlebars =======================================================================
