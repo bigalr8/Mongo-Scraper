@@ -63,11 +63,11 @@ A user may view previously scraped articles or scrape new atricles.
 
 ## Instructions 
 * The server is started with the command 'node server.js". 
-* The app is access via HeroKu using the "https://glacial-fortress-38607.herokuapp.com/" url
+
 
 ## Artifacts
 * `bigalr8/Mongo-Scraper` - github repo
-* `"                       "` - Heroku url
+* `"https://git.heroku.com/enigmatic-cove-84017.git"` - Heroku url
 * ` https://bigalr8.github.io/Basic-Portfolio/` - Portfolio with link to 'Friend-Finder'        
 
 ## Notes
